@@ -39,7 +39,7 @@ body {
 }
 
 .red {
-    color: #FF005C;
+    color: #d10000;
 }
 
 .navbar {
@@ -63,4 +63,15 @@ body {
 iframe {
     width: 400px;
     height: 200px;
+}
+
+.btn-download {
+    width: 150px;
+    background-color: #d10000;
+    color: white;
+    padding: 10px;
+    border: 0;
+    font-weight: bold;
+    border-radius: 7px;
+    text-align: center;
 }
