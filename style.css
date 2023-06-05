@@ -2,7 +2,8 @@ body {
     margin: 0;
 }
 
-body p {
+body p,
+footer {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -183,4 +184,19 @@ iframe {
 
 .description p {
     padding: 20px;
+}
+
+footer {
+    background-color: #000000;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
 }
