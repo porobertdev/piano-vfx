@@ -72,7 +72,7 @@ footer {
     padding: 10px;
 }
 
-.navbar .donate:hover {
+.navbar .btn:hover {
     background-color: #ff0b0b;
     color: white;
     font-weight: bold;
@@ -104,6 +104,10 @@ iframe {
     font-weight: bold;
     border-radius: 7px;
     text-align: center;
+}
+
+.btn-download:hover {
+    background-color: #8d2d2d;
 }
 
 /* FEATURES SECTION */
