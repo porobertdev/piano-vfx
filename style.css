@@ -64,6 +64,18 @@ footer {
     list-style: none;
     margin: 0;
     gap: 20px;
+    justify-content: center;
+    align-items: ;
+}
+
+.navbar li {
+    padding: 10px;
+}
+
+.navbar .donate:hover {
+    background-color: #ff0b0b;
+    color: white;
+    font-weight: bold;
 }
 
 .header .bottom {
