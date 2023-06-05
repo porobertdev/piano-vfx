@@ -51,8 +51,12 @@ body p {
     font-size: 20px;
 }
 
+.logo .red {
+    font-weight: bold;
+}
+
 .red {
-    color: #d10000;
+    color: #ff0b0b;
 }
 
 .navbar {
@@ -64,7 +68,7 @@ body p {
 .header .bottom {
     justify-content: space-between;
     align-items: center;
-    padding: 30px 0;
+    padding: 40px 0;
     gap: 80px;
 }
 
@@ -87,4 +91,96 @@ iframe {
     font-weight: bold;
     border-radius: 7px;
     text-align: center;
+}
+
+/* FEATURES SECTION */
+.pianovfx {
+    background-color: #282A3A;
+    color: white;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.pianovfx .center {
+    width: 1250px;
+    flex-direction: column;
+}
+
+.pianovfx img {
+    width: 450px;
+    height: auto;
+}
+
+.pianovfx .feature {
+    gap: 50px;
+    margin: 100px 0;
+    justify-content: center;
+    align-items: center;
+}
+
+/* EFFECTS */
+.pianovfx .showcase {
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.feature img {
+    border: 
+}
+
+.feature .effects img {
+    width: 250px;
+    height: auto;
+}
+
+.feature.reverse {
+    flex-direction: row-reverse;
+}
+
+.feature {
+    align-items: center;
+}
+
+.feature .leds img,
+.feature .customizable img {
+    width: 520px;
+    height: 300px;
+}
+
+/* REQUIREMENTS */
+.feature .requirements img {
+    width: 100px;
+    height: 100px;
+}
+
+.feature h1 {
+    padding: 0 40px;
+}
+
+.requirements {
+    flex-wrap: wrap;
+}
+
+.requirements.showcase {
+    width: 400px;
+}
+
+.requirements .spec {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 22px;
+}
+
+.feature .description {
+    width: 500px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.description p {
+    padding: 20px;
 }
