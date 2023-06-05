@@ -12,8 +12,13 @@ body p {
 
 .header {
     background-color: #000000;
-    opacity: 72%;
     color: white;
+}
+
+.header .bottom{
+    background-image: url(https://www.piano-vfx.com/bg_images/bg6.png);
+    background-position: top;
+    background-size: cover;
 }
 
 .container {
